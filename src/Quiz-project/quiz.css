@@ -1,0 +1,65 @@
+.container{
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    color: rgb(35, 34, 36);
+    border-radius: 15px;
+    gap: 20px;
+    padding: 25px 35px;
+
+}
+
+.container hr{
+    height: 2px;
+    border: none;
+    background-color: rgb(145, 143, 143);
+}
+
+.container h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+.container ul li{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-left: 15px;
+    border: 1px solid rgb(159, 158, 158);
+    border-radius: 7.5px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container button{
+    margin: auto;
+    width: 250px;
+    height: 65px;
+    background: #553f9a;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container .index{
+    margin: auto;
+    font-size: 18px;
+}
+
+.container .correct{
+    background: #dffff2;
+    border-color: #00d397;
+}
+
+.container .wrong{
+    background: #ffebeb;
+    border-color: #ff4a4a;
+}
